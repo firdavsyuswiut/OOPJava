@@ -108,4 +108,10 @@ public class Main {
             return sum; // Return statement
 
     }
+        public void ResultAddNumbers(String message){
+            int resultAddNumber = addNumbers(4, 5);
+        System.out.println(message + " " + "" + resultAddNumber);
+        }
+
+        ResultAddNumbers();
 }
