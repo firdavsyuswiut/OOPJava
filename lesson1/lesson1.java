@@ -55,3 +55,14 @@ Subtraction Compound Assignment     result -= 5;
 Multiplication Compound Assignment  result *= 5;
 Division Compound Assignment        result /= 5;
  */
+
+/*
+Comparison and Logical Operators:    Operator                                         Explanation Example
+>                                    Greater than                                     a > b
+<                                    Less than                                        a < b
+>=                                    Greater than or equal to                        a >= b
+<=                                    Less than or equal to                           a <= b
+==                                    Equal to                                        a == b
+&&                                    Logical AND (true if both conditions are true)  a > 0 && b > 0
+||                               Logical OR (true if at least one condition is true)  a > 0 || b > 0
+ */
