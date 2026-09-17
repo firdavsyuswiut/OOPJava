@@ -3,6 +3,20 @@
 public class Main {
     public static void main(String[] args) {
 
+        Product product = new Product();
+//        product.name = "Wireless Mousse";
+//        product.price = 49.99;
+//        product.quantity = 10;
+        product.grade = 'A';
+        product.inStock = true;
+
+
+        System.out.println("Name: " + product.getName());
+        System.out.println("Price: " + product.getPrice());
+        System.out.println("Quantity: " + product.getQuantity());
+        System.out.println("InStock: " + product.inStock);
+        System.out.println("Grade: " + product.grade);
+
 
     }
 }
