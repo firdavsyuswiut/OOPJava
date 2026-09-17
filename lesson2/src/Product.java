@@ -11,6 +11,15 @@ public class Product {
         this.price = 0.0;
         this.quantity = 0;
     }
+
+    public Product(String name, double price, int quantity, boolean inStock, char grade) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+        this.inStock = inStock;
+        this.grade = grade;
+    }
+
     // Create Function getName() this is name of function
     public String  getName(){
         return name;

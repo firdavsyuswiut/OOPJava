@@ -11,12 +11,16 @@ public class Main {
         product.inStock = true;
 
 
+//        System.out.println("Name: " + product.getName());
+//        System.out.println("Price: " + product.getPrice());
+//        System.out.println("Quantity: " + product.getQuantity());
+//        System.out.println("InStock: " + product.inStock);
+//        System.out.println("Grade: " + product.grade);
+
+        Product chair = new Product("Arm chair", 14.5, 50, true, 'A'
+        );
+
         System.out.println("Name: " + product.getName());
         System.out.println("Price: " + product.getPrice());
-        System.out.println("Quantity: " + product.getQuantity());
-        System.out.println("InStock: " + product.inStock);
-        System.out.println("Grade: " + product.grade);
-
-
     }
 }
